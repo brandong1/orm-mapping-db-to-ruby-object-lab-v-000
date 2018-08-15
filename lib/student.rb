@@ -77,7 +77,7 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
-      WHERE X = ?
+      WHERE grade = 10
       LIMIT X
     SQL
 
